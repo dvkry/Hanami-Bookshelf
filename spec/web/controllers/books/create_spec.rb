@@ -8,7 +8,6 @@ describe Web::Controllers::Books::Create do
 
   before do
     repository.clear
-    p repository
   end
   describe 'with valid params' do
 
