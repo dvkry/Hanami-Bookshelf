@@ -3,6 +3,7 @@
 #
 # Example:
 # get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
+get '/authors/:author', to: 'authors#author'
 get '/authors', to: 'authors#index'
 
 
